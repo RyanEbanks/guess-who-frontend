@@ -6,6 +6,7 @@ import Home from './components/Home';
 import Terms from './components/Terms';
 import Privacy from './components/Privacy';
 import Credits from './components/Credits';
+import Room from './components/Room';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/room' element={<Room />} />
           <Route path='/terms' element={<Terms />} />
           <Route path='/privacy' element={<Privacy />} />
           <Route path='/credits' element={<Credits />} />
